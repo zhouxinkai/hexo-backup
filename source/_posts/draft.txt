@@ -1,0 +1,53 @@
+http://yuml.me/diagram/nofunky/class/
+[CWindowMgrImpl]-[note: 
+这个类类似策略模式（Strategy）中的Context，
+所有对UI的操作比如OpenHlWindow、CloseHlWindow、
+SendMessageByid等，都是在这个类里定义的{bg:cornsilk}],
+[CWindowMgrImpl]<>1-*>[<<IHlWindowCtrller>>],
+
+[<<IHlWindowCtrller>>]-[note:
+定义一些接口，
+比如Open，Close，Reload等{bg:cornsilk}], 
+[<<IHlWindowCtrller>>]^-.-[CHlWindow], 
+[CHwndWrapper]-[note: 
+注册，设置回调函数，
+一切和Window窗口有
+关的东西都放在这个类里{bg:cornsilk}],
+[CHwndWrapper]^-[CHlWindow] ,
+
+[CHlWindow]^-[HomepageUI], 
+[CHlWindow]^-[ProgressInfoUI], 
+[CHlWindow]^-[the rest of ui], 
+[CHlWindow]++1-1>[CL10Processor], 
+[CHlWindow]++1-1>[JQuery],
+[JQuery]-[note:
+在htmlayout::dom::element的基础上
+定义一些类似JQuery的方法，可以让我们
+很方便的操作DOM{bg:cornsilk}]
+
+http://yuml.me/diagram/nofunky/class/[Singleton|-instance: Singleton|-Singleton();+GetInstance()],[Singleton]-[note:
+Singleton类，定义一个GetInstance操作，
+允许客户访问它的唯一实例。GetInstanc是一个静态方法，
+主要负责创建自己的唯一实例
+{bg:cornsilk}]
+
+
+记叙文的写法编辑
+1：时间
+2:地点
+3:人物
+4:事件与事件背景
+5:反映的道理（主题）
+6:自己在这个事件中的顿悟，体会，感想。
+这些都同样重要，如果少了其中任意一点，就不是记叙文了。
+
+---
+title: test_title
+date: 2016-04-21 12:52:43
+categories: test_category
+tags: [test_tag_1, test_tag_2]
+description: test_descriptions
+---
+以上是摘要
+<!--more-->
+以下是余下全文,这里开始使用markdown格式输入你的正文。
