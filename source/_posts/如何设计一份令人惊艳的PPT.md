@@ -2,7 +2,7 @@
 title: 如何设计一份令人惊艳的PPT
 toc: true
 date: 2016-05-21 23:14:31
-categories: 不务正业
+categories: 胡言乱语
 tags: [PPT]
 description: 利用PPT来表达你的观点
 ---
