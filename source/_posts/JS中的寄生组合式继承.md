@@ -49,6 +49,8 @@ function Extend(subType, superType){
     var temp = new FTemp();
     //创建一个临时中间对象
     temp.constructor = subType;
+    //当为对象实例添加一个属性时，这个属性会屏蔽原型对象中的同名属性，
+    //也就是说，添加的属性只会阻止我们访问原型中的那个属性，但不会修改那个属性
     subType.prototype = temp;
 }
 Extend(SubType, SuperType);
