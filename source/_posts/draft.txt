@@ -31,6 +31,29 @@ Singleton类，定义一个GetInstance操作，
 主要负责创建自己的唯一实例
 {bg:cornsilk}]
 
+http://yuml.me/diagram/nofunky/class/[WMOrder]-[note: 
+对外暴露的就是这个类{bg:cornsilk}],
+[WMOrder]++1-1>[WMPrinter],
+[WMPrinter]-[note:封装打印相关的，
+它与WMOrder的关系是组合，
+外部只知道WMOrder，
+不知道有WMPrinter的存在，
+因为其被严格的封装在WMOrder中，
+对外部完全不可见{bg:cornsilk}],
+[WMOrder]++1-1>[Routes],
+[Routes]-[note:封装service用到的路由（即网络请求），
+它与WMOrder的关系是混入，
+两者相互依赖，耦合程度比较高，
+二者从语义上讲是组合的关系（不是继承）{bg:cornsilk}],
+[WMOrder]-.->[Web],
+[web]-[note:封装一些用于Android网页的功能{bg:cornsilk}],
+[WMOrder]-.->[Client],
+[Client]-[note:封装一些用于客户端的功能{bg:cornsilk}],
+[WMOrder]-.->[utils],
+[utils]-[note:封装一些常用的工具函数，
+其与其他类的关系是依赖使用，
+耦合程度很低{bg:cornsilk}]
+
 
 记叙文的写法编辑
 1：时间

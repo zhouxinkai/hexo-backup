@@ -7,3 +7,15 @@ date: 2016-04-21 12:55:58
     于是，你不禁开始畅想自己终于可以挥别创业以来无数次没日没夜的加班，产品提交上线，用户鱼贯而入；各大媒体为你辟出头条，评论家们将你捧在掌心；微博转爆，微信塞满，投资人的电话骚扰得你应接不暇；你成功融资，扩大规模，豪聚四方宾朋，招徕各路英才；你一掷千金地烧钱推广，引发用户量的几何级数暴涨，甚至连行业巨头公司都为之震动，一度不得不在自己的产品里封杀你；用户们排队掏钱趋之若鹜，你的营收图表连续拉出几道气势恢宏的阳线，前来拜访取经的团队无不惊呼你的办公环境堪称土豪；你邀请一线国际女星出席发布会，参演微电影，在线下铺天盖地地刷存在感，楼宇、地铁、广场、邮轮上无不是你引以为傲的图标；你的公关团队将你打造成电视广告里的高帅富加励志偶像，还顺便跟网络红人传点绯闻。终于，你递交了上市招股书，在海内外一票分析师对业绩的指指戳戳中，成功站在纳斯达克的顶点，敲响了开市的钟。身旁一众西装革履的幕僚们鼓掌欢呼，开香槟庆祝。而你的脑海霎时间一片空白，只是呆呆地凝望着大屏幕——如同当年在漆黑电脑屏幕前那样。报价终端上实时跳动着最新撮合的交易量，海内外投资者蜂拥而至，股票价格一路水涨船高，连整个华尔街都为之震惊。而你终于从晃神中清醒过来，将思绪重新拉回嘈杂的交易所内，怀揣难以言喻的心情掏出手机，给远在国内的运营总监打了个电话：“嗨，Joey，从明天起给公司全体员工换发新名片。嗯，对，印上我们的股票代码——NIUB。”
 </p>
 <div style="text-align:right"><span>——引自<a href="https://jobrest.gitbooks.io/growthhacking/content/" target="_blank" style="color: #3385FF;word-break: break-all;text-decoration: underline;">增长黑客</a>，和大家共勉</span></div>
+
+<div style="display: flex;">
+    <div style="width:30%;float:left;margin:0 2.5% 0 0;display:inline-block;text-align: center;color: #3385FF;" >
+        <img src="http://7xtj85.com1.z0.glb.clouddn.com/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81.png" alt="网站传送门">
+    </div>
+    <div style="width:30%;float:left;margin:0 2.5% 0 2.5%;display:inline-block;text-align: center;color: #3385FF;" >
+        <img src="http://7xtj85.com1.z0.glb.clouddn.com/%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1.jpg" alt="微信: 夜殇">
+    </div>
+    <div style="width:30%;float:left;margin:0 0 0 2.5%;display:inline-block;text-align: center;color: #3385FF;" >
+        <img src="http://7xtj85.com1.z0.glb.clouddn.com/%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" alt="倾情打赏, 感谢您的支持，我会继续努力的！">
+    </div>
+</div>
