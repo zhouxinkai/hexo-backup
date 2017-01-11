@@ -3,7 +3,7 @@ title: 深入浅出Fetch API
 categories: JavaScript
 tags: [JavaScript, Fetch]
 description: Fetch作为Ajax的替代者，接口简洁、功能强大
-toc: true
+toc: false
 date: 2017-01-11 10:44:39
 ---
 之前写了一个小项目，踩了一些Fetch的坑，记录在此，方便以后查看
