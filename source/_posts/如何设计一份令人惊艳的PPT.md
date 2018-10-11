@@ -51,7 +51,7 @@ description: 利用PPT来表达你的观点
 - [使用演讲者模式](http://jingyan.baidu.com/article/6f2f55a1b8d5b6b5b93e6c27.html)
 
 ## 干货 ##
-- [按照以上步骤，我设计了一个PPT，回顾了去年5月份川藏线骑行之旅，在公司的分享活动上讲给了大家，现场效果很赞，当然我讲的也很好，真的不是我骄傲，我发现我有这个天赋，擅长讲故事，有兴趣的话，可以下载下来看看，保证你不会后悔](http://7xtj85.com1.z0.glb.clouddn.com/%E5%B7%9D%E8%97%8F%E7%BA%BF%E9%AA%91%E8%A1%8C%E4%B9%8B%E6%97%85.pptx)
-- [如何做好PPT：公司主管分享给我们的，本篇文章的提纲就来自于这里](http://7xtj85.com1.z0.glb.clouddn.com/%E5%A6%82%E4%BD%95%E5%81%9APPT%28Thomas%E7%9A%84%E5%88%86%E4%BA%AB%29.pptx)
+- [按照以上步骤，我设计了一个PPT，回顾了去年5月份川藏线骑行之旅，在公司的分享活动上讲给了大家，现场效果很赞，当然我讲的也很好，真的不是我骄傲，我发现我有这个天赋，擅长讲故事，有兴趣的话，可以下载下来看看，保证你不会后悔](http://www.53zi.com/%E5%B7%9D%E8%97%8F%E7%BA%BF%E9%AA%91%E8%A1%8C%E4%B9%8B%E6%97%85.pptx)
+- [如何做好PPT：公司主管分享给我们的，本篇文章的提纲就来自于这里](http://www.53zi.com/%E5%A6%82%E4%BD%95%E5%81%9APPT%28Thomas%E7%9A%84%E5%88%86%E4%BA%AB%29.pptx)
 - 最受欢迎的快捷键
-![最受欢迎的快捷键](http://7xtj85.com1.z0.glb.clouddn.com/ppt_key.png)
+![最受欢迎的快捷键](http://www.53zi.com/ppt_key.png)

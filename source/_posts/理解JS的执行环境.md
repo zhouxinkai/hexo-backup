@@ -10,7 +10,7 @@ date: 2016-05-25 15:15:36
 <!--more-->
 ## EC的组成
 当JavaScript代码执行的时候，会进入不同的执行上下文，这些执行上下文会构成了一个**执行上下文栈**（Execution context stack，ECS）。
-![EC的组成](http://7xtj85.com1.z0.glb.clouddn.com/Execution%20Context.png)
+![EC的组成](http://www.53zi.com/Execution%20Context.png)
 - 变量对象（Variable object，VO）: 变量对象即包含变量的对象，除了我们无法访问它外，和普通对象没什么区别。
 - `[[Scope]]`属性:作用域即变量对象，**作用域链是一个由变量对象组成的带头结点的单向链表，其主要作用就是用来进行变量查找。而[[Scope]]属性是一个指向这个链表头节点的指针。**
 - this: 指向一个环境对象，注意是一个对象，而且是一个**普通对象**，而不是一个执行环境。

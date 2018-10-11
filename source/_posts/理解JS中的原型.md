@@ -21,7 +21,7 @@ function Person() {};
 1. 创建一个Object对象（有constructor属性及[[Prototype]]属性）;
 2. 创建一个函数（有name、prototype属性），再通过prototype属性引用刚才创建的对象;
 3. 创建变量Person，同时把函数的引用赋值给变量Person
-![如图可以表示为](http://7xtj85.com1.z0.glb.clouddn.com/prototype.png)
+![如图可以表示为](http://www.53zi.com/prototype.png)
 
 ## 实例化一个对象
 我们用上面这个Person函数去实例化一个对象时，js解析又是怎样呢？比如：
@@ -32,7 +32,7 @@ var angela = new Person();
 1. 新建一个对象并赋值给变量angela：var angela = {};
 2. 把这个对象的[[Prototype]]属性指向函数Person的原型对象：angela.[[Prototype]] = Person.prototype
 3. 调用函数Person，同时把this指向刚创建的对象angela，对这个对象进行初始化：Person.apply(angela,arguments)
-![如图可表示为](http://7xtj85.com1.z0.glb.clouddn.com/prototype1.png)
+![如图可表示为](http://www.53zi.com/prototype1.png)
 **总结：**构造函数、原型和实例之间的关系，每个构造函数包含一个指向原型对象的指针prototype，原型对象都包含一个指向构造函数的指针constructor，而实例都包含一个指向原型对象的内部指针\__proto__（有的地方称为[[prototype]]）。
 
 ## 重写prototype对象
@@ -59,7 +59,7 @@ prototype属性本质上它就是一个普通的指针,其之所以特别，是�
 只有**构造函数才具有prototype属性**，且只有以下对象才是构造函数：
 5种基本引用类型（Object、Array、Date、RegExp、Function）、3种包装类型（Boolean、Number、String）、Function的实例
 javascript创建对象时采用了写时复制的理念，当调用构造函数创建一个实例后，该实例内部将包含一个指针（内部属性,下图中暂时称为inobj），指向构造函数的原型对象。
-![调用构造函数创建一个实例](http://7xtj85.com1.z0.glb.clouddn.com/1593745-54254e96f4a43db7.jpg)
+![调用构造函数创建一个实例](http://www.53zi.com/1593745-54254e96f4a43db7.jpg)
 - 而普通对象是没有prototype属性的，在chrome上对象有一个\__proto__属性指向对象的原型，但是
 在其他浏览器上这个属性对外完全不可见，要取得普通对象的原型对象，可以调用Object.getPrototypeOf(instance),便可取得实例instance的原型。
 

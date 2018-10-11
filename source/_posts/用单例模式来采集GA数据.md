@@ -11,11 +11,11 @@ description: [单例模式在项目中的运用]
 ## GA简介 ##
 
 GA是Google Analytics的简称，GA提供了非常强大的数据采集功能，我在这个博客中就引入了GA，你在这里看了我的那一篇文章，点了什么东西，我都能看到，如下图所示。
-![这个博客的GA统计数据](http://7xtj85.com1.z0.glb.clouddn.com/ga_blog.png)
+![这个博客的GA统计数据](http://www.53zi.com/ga_blog.png)
 而且最重要的是，它是免费的，在网页中你只需要嵌入一小段JS脚本即可，但在C++中这样不行，但本质上来讲采集GA数据的过程是一个HTTP GET请求(可以从Chrome的开发者工具的Network面板中看到，也可以用WireShark抓包得到)。
 所以在C++只要按照相应的格式发送HTTP GET请求就行了。
-![发送GA事件](http://7xtj85.com1.z0.glb.clouddn.com/ga_request_true.png)
-![GA响应](http://7xtj85.com1.z0.glb.clouddn.com/ga_response.png)
+![发送GA事件](http://www.53zi.com/ga_request_true.png)
+![GA响应](http://www.53zi.com/ga_response.png)
 附：[GA开发者手册](https://developers.google.com/analytics/devguides/collection/analyticsjs/events)
 
 ## C++发送GA事件 ##
@@ -29,7 +29,7 @@ GA是Google Analytics的简称，GA提供了非常强大的数据采集功能，
 - 实例化控制：保证一个类只有一个实例
 - 全局访问：提供了一个全局访问点
 
-![单例模式结构图](http://7xtj85.com1.z0.glb.clouddn.com/singleton.png)
+![单例模式结构图](http://www.53zi.com/singleton.png)
 
 很显然单例模式用在这里很合适，核心code如下：
 ```C++

@@ -16,7 +16,7 @@ CSS的知识总的来说比较杂，这里记录一下工作用到的东西，�
 这四个伪类的前后顺序在某些情况下是很重要的。
 
 ### 盒模型
-![](http://7xtj85.com1.z0.glb.clouddn.com/%E7%9B%92%E6%A8%A1%E5%9E%8B.png)
+![](http://www.53zi.com/%E7%9B%92%E6%A8%A1%E5%9E%8B.png)
  - Content(内容)： 盒子的内容，显示文本和图像，CSS内定义的`width`和`height`属性，只是设置内容区域的宽度和高度。。
  - Margin(外边距)： 外边距是透明的，其决定着不同盒子之间的距离，而两个元素之间间距到底为多少，取两者中**最大的**margin。
  - **实际高度** = 元素的内容高度 + `padding-top` + `padding-bottom` + `border-top` + `border-bottom`，margin是不算在内的。
@@ -52,5 +52,5 @@ CSS的知识总的来说比较杂，这里记录一下工作用到的东西，�
 - text-align：center，设置文本水平居中
 
 ### 参考资料
-[CSS参考手册](http://7xtj85.com1.z0.glb.clouddn.com/CSS%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C.chm)
+[CSS参考手册](http://www.53zi.com/CSS%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C.chm)
 

@@ -20,16 +20,16 @@ CheckScope();
 //结果为local
 ```
 1.当代码进入Global Execution Context后，会创建Global VO
-![](http://7xtj85.com1.z0.glb.clouddn.com/global%20EC.png)
+![](http://www.53zi.com/global%20EC.png)
 2.当代码执行到`CheckScope();`语句的时候，进入CheckScope Execution Context；根据上一篇文章<执行环境>的介绍，这里会创建CheckScope VO，并设置CheckScope Execution Context的`[[Scope]]属性`
-![](http://7xtj85.com1.z0.glb.clouddn.com/local_ECS.png)
+![](http://www.53zi.com/local_ECS.png)
 
 ## 作用域链的创建规则
 ### 当定义一个函数时
 在函数内部会创建一个`[[Scope]]属性`，这个属性指向一条作用域链。
 也就是说在定义函数时，会**事先创建**一条作用域链。
 这从chrome中可以看出来，如下图所示，`<function scope>即为我说的[[Scope]]属性`
-![](http://7xtj85.com1.z0.glb.clouddn.com/test.png)
+![](http://www.53zi.com/test.png)
 而这条事先就创建好的作用域链的创建规则也是很重要的，有以下几点：
 - JS中只有**两种类型**的作用域：全局作用域、函数作用域，所以在作用域链上的对象，**只可能**是window对象或者函数执行环境所对应的变量对象，**但是with语句是一个例外**，其可以临时在作用域链的前端临时增加一个**普通对象**。
 
@@ -80,5 +80,5 @@ typedef struct _tNODE{
 
 2.猜想
 我猜想作用域链的数据大概如下，是一个链栈，只是为了说明问题，不保证准确性，当然我也是不会为它负责的。
-![](http://7xtj85.com1.z0.glb.clouddn.com/scope%20chainpng.png)
+![](http://www.53zi.com/scope%20chainpng.png)
 

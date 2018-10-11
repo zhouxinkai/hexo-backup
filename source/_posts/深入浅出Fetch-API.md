@@ -38,7 +38,7 @@ Fetch引入了`3个接口: Headers, Request, Response`,它们直接对应HTTP中
 
 ## Headers
 ### 常用方法
-Headers接口是一个简单的键值对，Request接口中的headers参数就可以直接用一个对象来代替，但它和普通对象的不同在于它提供了以下一些方法,且大多方法的返回值是可以被`for of`迭代的，使得操作Header更为方便 ![Headers接口的方法](http://7xtj85.com1.z0.glb.clouddn.com/Fetch-Headers%E6%8E%A5%E5%8F%A3.png)
+Headers接口是一个简单的键值对，Request接口中的headers参数就可以直接用一个对象来代替，但它和普通对象的不同在于它提供了以下一些方法,且大多方法的返回值是可以被`for of`迭代的，使得操作Header更为方便 ![Headers接口的方法](http://www.53zi.com/Fetch-Headers%E6%8E%A5%E5%8F%A3.png)
 
 ### guard属性
 在Headers对象中有一个`guard` 属性，来指定其是否可以被改变，其有以下5种取值。
