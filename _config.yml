@@ -6,9 +6,10 @@
 title: 夜殇的小站
 subtitle: 世界上有那么多的城镇，城镇中有那么多的酒馆，你却偏偏走进了我的酒馆
 description:
+keywords:
 author: Bruce Zhou
 language: zh-CN
-timezone:
+timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -26,8 +27,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-    - about/*.html
-    - resume/**
+  - about/*.html
+  - resume/**
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -41,8 +42,8 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
   auto_detect: true
+  line_number: true
   tab_replace:
 
 # Category & Tag
@@ -73,7 +74,7 @@ deploy:
   type: git
   repo: ssh://git@github.com/zhouxinkai/zhouxinkai.github.io
   branch: master
-  
+
 search:
   path: search.xml
   field: all
