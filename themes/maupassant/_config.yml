@@ -23,8 +23,8 @@ gitalk:
   admin: ## Github repo owner and collaborators, only these guys can initialize github issues.
 valine: ## https://valine.js.org
   enable: false ## If you want to use Valine comment system, please set the value to true.
-  appid: ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  appId: C9hVKfDcT6b8i6HkGLFgXJYi-gzGzoHsz # Your leancloud application appid
+  appKey: IddE6eOVeuRjsi0u3vhH6xnW # Your leancloud application appkey
   notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
   verify: false ## Validation code.
   placeholder: Just so so ## Comment box placeholders.
@@ -37,7 +37,7 @@ minivaline:
   enable: true
   appId: C9hVKfDcT6b8i6HkGLFgXJYi-gzGzoHsz # Your leancloud application appid
   appKey: IddE6eOVeuRjsi0u3vhH6xnW # Your leancloud application appkey
-  placeholder: Write a Comment # Comment box placeholder
+  placeholder: 说点什么 # Comment box placeholder
   adminEmailMd5: # The MD5 of Admin Email to show Admin Flag.
   math: true # Support MathJax.
   md: true # Support Markdown.
@@ -46,6 +46,7 @@ minivaline:
   # Available values: en  | zh-CN | (and many more)
   # More i18n info: https://github.com/MiniValine/minivaline-i18n
   lang:
+  avatar: "robohash"
 
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
